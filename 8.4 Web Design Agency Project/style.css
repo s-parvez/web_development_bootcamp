@@ -1,0 +1,46 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.card{
+  width: 45%;
+  display: inline-block;
+}
+
+.right{
+  margin-left: 60px;
+}
+
+
+.tile-image{
+  width: 300px;
+}
+
+.left .tile-image{
+  float: left;
+  margin-right: 40px;
+}
+
+.right .tile-image{
+  float: right;
+  margin-left: 40px;
+}
+
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
